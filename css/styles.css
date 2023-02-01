@@ -1,0 +1,365 @@
+/* estilos generales */ 
+*{
+   padding: 0;
+   margin: 0;
+}
+body{
+    background-color:white;
+    font-family: candara;
+}
+
+
+/* inicio navbar */
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 16px 32px;
+font-size: 20px;
+}
+
+
+.menu-navbar{
+   display: flex;
+   list-style: none;
+   grid-gap: 16px;
+   color: #027F3A;
+}
+
+.navbar-nav {
+   background-color: white;
+   margin-left: auto;
+}
+
+.nav-item .nav-link {
+   color: black;
+}
+
+.nav-item .nav-link:hover {
+   color: green;
+}
+
+   
+/* fin navbar*/
+
+/* incio frontal*/
+.frontal{
+padding: 228px;
+font-size: larger;  
+}
+
+.frontal-desktop {
+   background-image: linear-gradient(
+   0deg, 
+   rgba(0, 0, 0, 0.0),
+   rgba(0,0,0,0.1)
+) 
+,url(../img/banner-pagina-web.png);
+background-position: center; 
+background-size: cover; 
+color: rgb(1, 1, 1); 
+}
+
+.frontal-mobile {
+   background-image: linear-gradient(
+   0deg, 
+   rgba(0, 0, 0, 0.0),
+   rgba(0,0,0,0.1)
+) 
+,url(../img/producto1.png);
+background-position: center; 
+background-size: cover; 
+color: rgb(1, 1, 1); 
+display: none;
+}
+
+/* fin forntal */
+
+ /* estilos de mail */
+h2{
+   background-color: #00B13F;
+   color: #01080f;
+   padding: 16px;
+   margin-bottom: 35px;
+}
+h1{
+   text-align: center;
+   font-size: 25px;
+ }
+
+.contenedor-servicios{
+   display: flex;
+   justify-content: center;
+   grid-gap:35px;
+   flex-wrap: wrap;
+}
+.carta{
+   width: 255px;
+}
+ main{
+    text-align: center; 
+ }
+
+ main p{
+    font-size: 20px;
+    color: #01080f;
+ }
+.beneficios{
+   padding: 28px;
+   display: flex;
+   justify-content: center;
+}
+
+.menu-beneficios{
+   list-style: none;
+   font-size:24px;
+   text-align: start;
+   padding: 24px;
+
+}
+
+ /* estilos del footer */
+
+ footer{
+    text-align: center;
+    font-size: 16px;
+    color:#2B3952;
+    padding: 20px;
+ }
+
+/* estilos nosotros */
+
+.historia{
+   padding: 16px;
+   font-size: 20px;
+   background-color: #00B13F;
+   text-align: center;
+   margin-bottom: 10px;
+   font-weight: 100px; 
+}
+
+.nosotros-frontal{
+   padding: 150px;
+font-size: larger;
+background-image: linear-gradient(
+   0deg, 
+   rgba(0, 0, 0, 0.0),
+   rgba(0, 0, 0, 0)
+) 
+,url(../img/banner-tres-nosotros.png);
+background-position: center; 
+background-size: cover; 
+color: rgba(1, 1, 1, 0.934);
+}
+
+.quienes-somos h2{
+   background-color: white;
+
+}
+
+.quienes-somos{
+   display: flex;
+   justify-content: center;
+   padding-top: 32px;
+   gap: 24px;
+   flex-wrap: wrap;
+}
+.texto-quienes-somos p{
+   text-align: left;
+   margin-bottom: 10px;
+}
+
+.texto-quienes-somos{
+   width: 500px;
+}
+
+.texto-nuestros-productos h2{
+   background-color: white;
+
+}
+
+.nuestros-productos{
+   display: flex;
+   justify-content: center;
+   padding-top: 32px;
+   gap: 24px;
+   flex-wrap: wrap;
+}
+.texto-nuestros-productos p{
+   text-align: left;
+   margin-bottom: 10px;
+   width: 500px;
+   display: flex;
+   justify-content: flex-start;
+}
+
+
+
+
+
+
+/* estilos contacto */
+
+.container--form{
+   display: flex;
+   height: 750px;
+   width: 1200px;
+   margin-left: 340px;
+   margin-top: 50px;
+   align-items: center;
+}
+
+.form{
+   padding: 30px 50px;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+}
+
+.form h3{
+   font-size: 40px;
+   color: #00B13F;
+   font-weight: 600;
+   margin-bottom: 35px;
+}
+
+.form p{
+   font-size: 20px;
+   margin-bottom: 20px;
+   text-align: left;
+
+}
+
+label{
+   font-size: 18px;
+   margin-bottom: 15px;
+
+}
+
+.box{
+   border: 0;
+   background-color: #2d955238;
+   padding: 15px;
+   border-radius: 25px;
+   
+}
+
+.submit{
+
+   padding: 12px;
+   border-radius: 18px;
+   margin-top: 25px;
+}
+
+.rest{
+
+   padding: 12px;
+   border-radius: 18px;
+   margin-top: 10px;
+}
+
+.info{
+   padding: 50px;
+}
+
+.img-1{
+   width: 350px;
+   margin-bottom: 75px;
+
+}
+
+.locacion{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 60px;
+
+}
+
+.icons{
+   display: flex;
+   margin-bottom: 28px;
+}
+
+.icons img{
+   width: 20px;
+   margin-right: 10px;
+}
+
+/* estilos producto */
+
+.contenedor--productos{
+   display: flex;
+   justify-content: center;
+   grid-gap:35px;
+   flex-wrap: wrap;
+}
+
+
+
+
+/* estilos interes */
+
+.noticia{
+   display: flex;
+   justify-content: center;
+   padding-top: 32px;
+   gap: 24px;
+   flex-wrap: wrap;
+}
+
+
+.noticia h2{
+   background-color: white;
+
+}
+
+.noticia-texto p{
+   text-align: left;
+   margin-bottom: 16px;
+}
+
+.noticia-texto{
+   width: 500px;
+}
+
+.noticia-dos{
+   display: flex;
+   justify-content: center;
+   padding-top: 32px;
+   gap: 24px;
+   flex-wrap: wrap;
+}
+.noticia-dos h2{
+   background-color: white;
+}
+
+.noticia-texto-dos p{
+   text-align: left;
+   margin-bottom: 16px;
+}
+
+.noticia-texto-dos{
+   width: 500px;
+   
+}
+
+.noticia-tres{
+   display: flex;
+   justify-content: center;
+   padding-top: 32px;
+   gap: 24px;
+   flex-wrap: wrap;
+}
+.noticia-tres h2{
+   background-color: white;
+}
+
+.noticia-texto-tres p{
+   text-align: left;
+   margin-bottom: 16px;
+}
+
+.noticia-texto-tres{
+   width: 500px;
+   
+}
