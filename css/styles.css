@@ -294,6 +294,13 @@ label{
    flex-wrap: wrap;
 }
 
+.carta {
+   transition: .3s;
+ }
+ .carta:hover {
+   transform: scale(1.05,1.05);
+ }
+
 
 
 

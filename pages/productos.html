@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- link de mi css -->
-     <link rel="stylesheet" href="../css/styles.css">
-    <title>Productos - Gpoint</title>
-</head>
-<body> 
-     <!-- encabezado de mi html -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Link de bootstrap -->
+        <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+        <!-- link de mi css -->
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/mq.css">
+
+        <title>Gpoint</title>
+    </head>    
     <header id="header">
-        <div class="container">
-           <nav class="navbar"> 
-                <img src="../img/Logo greenpoint.png" alt="logo de la empresa de energia solar greenpoint"> 
-            <ul class="menu-navbar">
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="#">Productos</a>
-                </li>
-                <li>
-                    <a href="interes.html">Interés</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>               
-            </nav>
-        </div> 
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="../img/Logo greenpoint.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="productos.html">PRODUCTO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="interes.html">INTERÉS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="contacto.html">CONTACTO</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
+<body> 
 
     <!-- productos-->
 <main> 
@@ -160,5 +172,8 @@
      <h3> Todos los derechos reservados </h3>    
     <a href="#header"> volver arriba </a>
 </footer>
+
+    <!-- link de bootstrap js -->
+    <script src="../bootstrap/bootstrap.bundle.js"></script>
 </body>
 </html>
