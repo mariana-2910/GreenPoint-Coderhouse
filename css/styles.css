@@ -152,46 +152,44 @@ background-size: cover;
 color: rgba(1, 1, 1, 0.934);
 }
 
-.quienes-somos h2{
-   background-color: white;
-
-}
-
-.quienes-somos{
-   display: flex;
-   justify-content: center;
-   padding-top: 32px;
-   gap: 24px;
-   flex-wrap: wrap;
-}
-.texto-quienes-somos p{
+.contenedor{
+   width: 98%;
+   max-width: 1300px;
+   margin: 20px auto;
+   display: grid;
+   grid-gap: 28px;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(4, auto);
    text-align: left;
-   margin-bottom: 10px;
+   padding: 20px;
+  
 }
 
-.texto-quienes-somos{
-   width: 500px;
+.contenedor h2{
+   background-color:rgb(235, 251, 240);
+   text-align: center;
 }
 
-.texto-nuestros-productos h2{
-   background-color: white;
-
+.contenedor > div,
+.contenedor .contenido,
+.contenedor .contenido-dos{
+   background-color:rgb(235, 251, 240);
+   padding: 20px;
+   border-radius: 4px;
 }
 
-.nuestros-productos{
-   display: flex;
-   justify-content: center;
-   padding-top: 32px;
-   gap: 24px;
-   flex-wrap: wrap;
+.contenido-dos{
+   text-align: center;
 }
-.texto-nuestros-productos p{
-   text-align: left;
-   margin-bottom: 10px;
-   width: 500px;
-   display: flex;
-   justify-content: flex-start;
+.contenido-tres{
+   grid-column-start: 1;
+   grid-column-end: 4;
+   text-align: center;
+   width: 95%;
+   max-width: 1300px;
 }
+
+
 
 
 
